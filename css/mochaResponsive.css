@@ -1,0 +1,361 @@
+@media (max-width: 768px) and (min-width: 320px) {
+  .hero-image {
+    height: var(--size-300);
+    flex-direction: row;
+    position: relative;
+  }
+
+  .hero-text {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-text h1 {
+    font-size: var(--size-75);
+  }
+
+  .tagline {
+    font-size: var(--size-20);
+    position: relative;
+  }
+
+  .top-logo {
+    width: 8%;
+    margin-top: var(--size-8);
+    margin-left: var(--size-8);
+  }
+
+  /* About Us */
+  .about-wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .about-box-1,
+  .about-box-2 {
+    height: fit-content;
+    width: 85%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-box-1 img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-box-2 h2 {
+    font-size: var(--size-35);
+    border: 0;
+    margin-bottom: var(--size-10);
+  }
+
+  .about-box-2 p {
+    margin-top: 0;
+    padding-bottom: var(--size-10);
+  }
+
+  /* Drink Intro */
+  .drink-wrapper {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  .drink-box-1,
+  .drink-box-2 {
+    height: fit-content;
+    width: 85%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .drink-box-1 p {
+    margin-top: 0;
+    padding-top: var(--size-10);
+    padding-bottom: var(--size-10);
+  }
+
+  .drink-box-1 h2 {
+    font-size: var(--size-35);
+    border: 0;
+    margin-bottom: var(--size-10);
+  }
+
+  .drink-box-2 img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+  }
+
+  /* Pastries Intro */
+
+  .pastries-wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .pastries-box-1,
+  .pastries-box-2 {
+    height: fit-content;
+    width: 85%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .pastries-box-1 img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pastries-box-2 p {
+    margin-top: 0;
+    padding-bottom: var(--size-10);
+  }
+
+  .pastries-box-2 h2 {
+    font-size: var(--size-30);
+    border: 0;
+    margin-bottom: var(--size-10);
+    padding-left: var(--size-5);
+    padding-right: var(--size-5);
+  }
+
+  /* Contact Us */
+
+  .contact-wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .contact-box-1 {
+    height: fit-content;
+    width: 85%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .contact-box-2 {
+    width: 85%;
+    height: fit-content;
+  }
+
+  .contact-box-2 h2 {
+    font-size: var(--size-35);
+  }
+
+  .contact-forms {
+    height: 100%;
+  }
+
+  /* Testimonial */
+
+  .testimonial-wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .testimonial-wrapper h2 {
+    font-size: var(--size-35);
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonial-card-wrapper {
+    flex-direction: row;
+    width: 85%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonial-card-wrapper .testimonial-card {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Footer */
+  .footer-wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .top-footer {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-footer .footer-box-1,
+  .top-footer .footer-box-2,
+  .top-footer .footer-box-3 {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-box-1 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    width: 50%;
+    height: auto;
+  }
+
+  .info {
+    margin-top: var(--size-10);
+  }
+  .info .address,
+  .info .phone,
+  .info .email {
+    font-size: var(--size-16);
+  }
+
+  .navbar-footer {
+    font-size: var(--size-18);
+  }
+
+  .footer-box-3 a {
+    font-size: var(--size-25);
+  }
+
+  .copyrights {
+    font-size: var(--size-16);
+  }
+
+  #scrollUp {
+    right: var(--size-20);
+    height: var(--size-30);
+    width: var(--size-30);
+    font-size: var(--size-14);
+    line-height: var(--size-30);
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .hero-image {
+    height: var(--size-400);
+    flex-direction: column;
+    position: relative;
+  }
+
+  .hero-text {
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+  }
+
+  .hero-text h1 {
+    font-size: var(--size-100);
+  }
+
+  .tagline {
+    font-size: var(--size-25);
+  }
+
+  .top-logo {
+    width: 6%;
+    margin-top: var(--size-10);
+    margin-left: var(--size-10);
+  }
+
+  /* About Us */
+  .about-box-1 img {
+    width: 100%;
+  }
+
+  .about-box-2 h2 {
+    font-size: var(--size-40);
+    border: 0;
+    margin-bottom: var(--size-20);
+  }
+
+  .about-box-2 p {
+    margin-top: 0;
+    padding-bottom: var(--size-10);
+  }
+
+  /* Drink Intro */
+
+  .drink-box-1 h2 {
+    font-size: var(--size-40);
+    border: 0;
+    margin-bottom: var(--size-20);
+  }
+
+  .drink-box-1 p {
+    margin-top: 0;
+    padding-bottom: var(--size-10);
+  }
+
+  .drink-box-2 img {
+    width: 100%;
+  }
+
+  /* Pastries Intro */
+  .pastries-box-1 img {
+    width: 100%;
+  }
+
+  .pastries-box-2 h2 {
+    font-size: var(--size-40);
+    border: 0;
+    margin-bottom: var(--size-20);
+  }
+
+  .pastries-box-2 p {
+    margin-top: 0;
+    padding-top: var(--size-10);
+    padding-bottom: var(--size-10);
+  }
+
+  /* Testimonial */
+  .testimonial-wrapper {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .testimonial-card-wrapper {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-card-wrapper .testimonial-card {
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Footer */
+  .footer-box-3 a {
+    font-size: var(--size-25);
+  }
+}

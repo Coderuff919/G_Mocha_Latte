@@ -1,0 +1,136 @@
+/* Drinks Menu */
+
+.drink-menu-wrapper {
+  /* border: solid 3px rgb(168, 24, 168); */
+  width: 100%;
+  height: var(--size-200);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--mocha-3);
+  flex-wrap: wrap;
+  max-width: 75rem;
+  padding: var(--size-15);
+}
+
+.drink-menu-wrapper img {
+  /* border: solid 3px rgb(168, 24, 168); */
+  display: block;
+  width: var(--size-150);
+  height: var(--size-150);
+  object-fit: cover;
+}
+
+.drink-menu-wrapper p {
+  /* border: solid 3px rgb(168, 24, 168); */
+  font-family: "Irish Grover", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--font-light);
+  font-size: var(--size-100);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px var(--mocha-9);
+}
+
+/* Card */
+
+.card-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: var(--size-60);
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: var(--size-50);
+  padding-bottom: var(--size-50);
+  background-color: var(--mocha-4);
+  max-width: 75rem;
+}
+
+.card-box {
+  position: relative;
+  animation-name: anime-1;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  box-shadow: 10px 10px 15px var(--mocha-9);
+}
+
+@keyframes anime-1 {
+  0% {
+    left: 0px;
+    top: var(--size-100);
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.card-box {
+  width: var(--size-300);
+  height: var(--size-350);
+  border-radius: var(--size-15);
+  background-color: var(--mocha-3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--size-10);
+}
+
+.card-box img {
+  /* border: solid 3px rgb(168, 24, 168); */
+  display: block;
+  width: var(--size-150);
+  height: var(--size-200);
+  object-fit: cover;
+  margin-top: var(--size-20);
+  border-radius: var(--size-10);
+}
+
+.text-1 {
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--font-light);
+  font-size: var(--size-30);
+  text-align: center;
+  margin-top: var(--size-10);
+  margin-bottom: 0;
+}
+
+.text-2 {
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--font-light);
+  font-size: var(--size-20);
+  text-align: center;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .drink-menu-wrapper {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .drink-menu-wrapper p {
+    font-size: var(--size-50);
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+}
